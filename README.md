@@ -8,8 +8,7 @@ Ce projet vise à étudier l'effet de différents algorithmes d'optimisation sur
 ## Structure du projet
 - [notebooks/](./notebooks): Notebooks Jupyter pour l'exploration, le prétraitement et l'entraînement.
 - [src/](./src): Code source Python organisé en modules.
-- [docs/](./docs): Documentation du projet.
-- [results/](./results): Résultats finaux (modèles, visualisations, métriques).
+- [docs/](./docs): Rendu final du projet.
 
 ## Installation et Utilisation
 1. Clonez ce dépôt.
