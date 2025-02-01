@@ -6,10 +6,10 @@ Repo GitHub associé au projet de fin de cours réalisé dans le cadre du cours 
 Ce projet vise à étudier l'effet de différents algorithmes d'optimisation sur l'erreur de généralisation dans le contexte de données tabulaires. Nous utilisons le dataset `load_breast_cancer` de scikit-learn pour évaluer les performances de plusieurs algorithmes d'optimisation.
 
 ## Structure du projet
-- **notebooks/**: Notebooks Jupyter pour l'exploration, le prétraitement et l'entraînement.
-- **src/**: Code source Python organisé en modules.
-- **docs/**: Documentation du projet.
-- **results/**: Résultats finaux (modèles, visualisations, métriques).
+- (`notebooks/`)[./notebooks]: Notebooks Jupyter pour l'exploration, le prétraitement et l'entraînement.
+- (`src/`)[./src]: Code source Python organisé en modules.
+- (`docs/`)[./docs]: Documentation du projet.
+- (`results/`)[./results]: Résultats finaux (modèles, visualisations, métriques).
 
 ## Installation et Utilisation
 1. Clonez ce dépôt.
