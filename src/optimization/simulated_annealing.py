@@ -3,7 +3,7 @@
 import numpy as np
 import time
 from typing import Tuple, List
-from utils.helpers import logistic_loss
+from ..utils.helpers import logistic_loss
 
 def simulated_annealing(X: np.ndarray, y: np.ndarray, X_val: np.ndarray, y_val: np.ndarray, initial_temp: float = 1.0, final_temp: float = 1e-3, alpha: float = 0.9, n_iter: int = 1000) -> Tuple[np.ndarray, List[float], List[float], float]:
     """

@@ -6,7 +6,7 @@ from skopt.space import Real
 from skopt.utils import use_named_args
 import time
 from typing import Tuple, List
-from utils.helpers import logistic_loss
+from ..utils.helpers import logistic_loss
 
 def bayesian_optimization(X: np.ndarray, y: np.ndarray, X_val: np.ndarray, y_val: np.ndarray, n_calls: int = 50) -> Tuple[np.ndarray, List[float], List[float], float]:
     """

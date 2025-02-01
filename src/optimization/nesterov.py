@@ -3,7 +3,7 @@
 import numpy as np
 import time
 from typing import Tuple, List
-from utils.helpers import logistic_loss
+from ..utils.helpers import logistic_loss
 
 def nesterov_accelerated_gradient(X: np.ndarray, y: np.ndarray, X_val: np.ndarray, y_val: np.ndarray, learning_rate: float = 0.01, n_iter: int = 1000, momentum: float = 0.9, tolerance: float = 1e-6) -> Tuple[np.ndarray, List[float], List[float], float]:
     """

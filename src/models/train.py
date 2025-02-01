@@ -2,7 +2,7 @@
 
 import numpy as np
 from typing import Tuple
-from utils.helpers import logistic_loss
+from ..utils.helpers import logistic_loss
 
 def train_logistic_regression(X: np.ndarray, y: np.ndarray, learning_rate: float = 0.01, n_iter: int = 1000, tolerance: float = 1e-6) -> Tuple[np.ndarray, list]:
     """

@@ -3,7 +3,7 @@
 import numpy as np
 import time
 from typing import Tuple, List
-from utils.helpers import logistic_loss
+from ..utils.helpers import logistic_loss
 
 def particle_swarm_optimization(X: np.ndarray, y: np.ndarray, X_val: np.ndarray, y_val: np.ndarray, n_particles: int = 30, n_iterations: int = 100, w: float = 0.5, c1: float = 1.0, c2: float = 1.0) -> Tuple[np.ndarray, List[float], List[float], float]:
     """
